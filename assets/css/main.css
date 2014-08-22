@@ -906,12 +906,9 @@ fieldset[disabled] .btn-link:focus {
   right: 0;
   top: 0;
 }
-.speakers .speaker:hover .speaker-img img {
-  border-color: #555555;
-}
 .speakers .speaker-img {
   width: 70%;
-  padding: 30px;
+  /*padding: 30px;*/
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -1523,6 +1520,9 @@ blockquote:after {
 .section-header a {
   text-decoration: none;
   color: #3c3c3c;
+}
+.speaker-img a{
+  background-color: #d34836; color:#fff; border:0
 }
 
 /************************************************
