@@ -632,9 +632,10 @@ fieldset[disabled] .btn-link:focus {
 .promo .register .has-error .btn-empty {
   border-color: #e74c3c !important;
 }
-.section-portfolio {
+/*.section-portfolio {
   padding-bottom:78px
 }
+*/
 .section-portfolio .project {
   margin-bottom:26px;
   position:relative
@@ -970,9 +971,10 @@ fieldset[disabled] .btn-link:focus {
   margin-top: 10px;
 }
 
-.section-portfolio {
+/*.section-portfolio {
   padding-bottom: 78px
 }
+*/
 .section-portfolio .project {
   margin-bottom: 26px;
   position:relative
@@ -1004,7 +1006,12 @@ fieldset[disabled] .btn-link:focus {
   }
 }
 .section-portfolio .project-thumbnail img {
-  max-width:100%;height:auto
+  max-width:100%;
+  height:197px;
+}
+.section-portfolio .single-project-thumbnail img {
+  max-width:100%;
+  height:489px;
 }
 .section-portfolio .project-title {
   position:absolute;
@@ -1524,7 +1531,11 @@ blockquote:after {
 .speaker-img a{
   background-color: #d34836; color:#fff; border:0
 }
-
+.vertical-divider-left {
+border-left: 1px solid #eeeeee;
+padding-left: 50px;
+margin-left: 20px;
+}
 /************************************************
 *** preloader ***
 ************************************************/
