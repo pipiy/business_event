@@ -1009,7 +1009,6 @@ fieldset[disabled] .btn-link:focus {
   max-width:100%;
   height:197px;
 }
-
 .section-portfolio .project-title {
   position:absolute;
   bottom:-52px;
@@ -1538,7 +1537,7 @@ blockquote:after {
 .photo-wrapper {
   margin-bottom: 20px;
 }
-.photo-wrapper .carousel-inner img {
+.photo-wrapper .single-item img {
   max-width:100%;
   height:489px;
 }
