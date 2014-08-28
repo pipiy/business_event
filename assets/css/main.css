@@ -1191,40 +1191,6 @@ fieldset[disabled] .btn-link:focus {
   font-size: 16px;
 }
 /************************************************
-*** faq ***
-************************************************/
-.faq {
-  padding: 60px 0;
-  background-color: #eeeeee;
-}
-.faq h1 {
-  margin-top: 40px;
-}
-.faq hr {
-  border-top-color: #999999;
-}
-.faq .panel-group {
-  margin-bottom: 0;
-}
-.faq .panel {
-  padding: 0;
-  background: #ffffff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.faq .panel-collapse p {
-  padding: 7px 12px;
-}
-.faq a[data-toggle] {
-  display: block;
-  color: #3c3c3c;
-  border-radius: 3px;
-  font-size: 18px;
-  padding: 7px 12px;
-  border: 1px solid #ffffff;
-  text-decoration: none;
-}
-/************************************************
 *** partners ***
 ************************************************/
 .partners {
@@ -1601,6 +1567,72 @@ blockquote:after {
 .btn-margin-center .btn{
   background-color: #4875B4;
   border-color: #4875B4;
+}
+
+/*** Accordion ***/
+.panel-group {
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.panel-group .panel {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.panel-group .panel + .panel {
+  margin-top: -2px;
+}
+.panel-group .panel-heading {
+  padding: 0;
+  background: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.panel-group .panel-body {
+  font-size: 13px;
+  background: #f6f6f6;
+  -webkit-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.03);
+}
+.panel-group .panel-heading a {
+  position: relative;
+  display: block;
+  padding: 12px 40px 12px 10px;
+  font-size: 14px;
+  color: #505050;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+.panel-group .panel-heading a:after {
+  display: block;
+  content: "-";
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  background-color: #505050;
+  -webkit-transition: background 300ms;
+  -moz-transition: background 300ms;
+  transition: background 300ms;
+}
+.panel-group .panel-heading .collapsed:after {
+  content: "+" !important;
+}
+.panel-group .panel-heading a:hover {
+  color: #ec7263;
+}
+.panel-group .panel-heading a:hover:after,
+.panel-group .panel-heading .collapsed:hover:after {
+  background: #ec7263;
 }
 /************************************************
 *** preloader ***
